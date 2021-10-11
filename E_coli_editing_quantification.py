@@ -16,6 +16,10 @@ wd = os.getcwd()
 fastq_reads = '%s/%s.fastq' % (wd,condition)
 
 Region_dict = {'rpoB_A1547G': {'flanking': ['GAGTTCTTCGGTTCCAGCCA','GTTTATGGACCAGAACAACC'], 'wt_or_edited': ['GCTGTCTCA','GCTGCCTCA']},
+			   'fabH_G954A': {'flanking': ['TTGCGTCATGTTTTAATCCT','AACGAACCAGCGCGGAGCCC'], 'wt_or_edited': ['TATCCTAGA','TATCTTAGA']},
+			   'fliN_G414A': {'flanking': ['GCACAGTAGCGTGGTTATTC','GGCTCAGGCGGCGCATTCGC'], 'wt_or_edited': ['ATCACTAAC','ATCATTAAC']},
+			   'murF_G1359A': {'flanking': ['TGACCAAATGTTCGGCCAGC','ATGTCCCATTCTCCTGTAAA'], 'wt_or_edited': ['CAAACTAAC','CAAATTAAC']},
+			   'priB_G1069A': {'flanking': ['CGACGGAAATAACGTGCCAT','CTCCAGAATCTATCAATTCA'], 'wt_or_edited': ['ATGGCTAGT','ATGGTTAGT']},
 			   'othersite': {'flanking': ['TK','TK'], 'wt_or_edited': ['wt','edited']}}
 
 all_reads_str = []
